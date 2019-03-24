@@ -8,20 +8,33 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #849974;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E9DCCD;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  color: #849974;
+  background-color: #E9DCCD;
+
 }
+
+#content-description {
+  height: 150px;
+}
+
+.footer {
+  background-color: #849974;
+  color: #E9DCCD;
+
+}
+
 
 @keyframes App-logo-spin {
   from {
