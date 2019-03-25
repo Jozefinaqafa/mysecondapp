@@ -9,11 +9,12 @@
 }
 
 .header {
+  padding: 5px 20px;
   background-color: #849974;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #E9DCCD;
@@ -25,13 +26,24 @@
 
 }
 
+#content-description-wrapper {
+  height: 100px;
+  padding: 25px;
+}
+
 #content-description {
-  height: 150px;
+  margin-bottom: 50px;
+}
+
+a.recipe-link{
+  color: rgb(83, 86, 90)
 }
 
 .footer {
   background-color: #849974;
   color: #E9DCCD;
+  font-size: 10px;
+  padding: 30px;
 
 }
 
